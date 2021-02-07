@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: auto;
+
+}
+.navibar{
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+    margin-top: 0px;
+}
+.navibar ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navibar ul li{
+    display: inline;
+    line-height: 50px;
+
+}
+.navibar ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:firebrick
+
+}
+.navibar ul li a:hover{
+    color: black;
+}
+/*this is starting haeader and photo section*/
+.header{
+    width: 100%;
+    height: 300PX;
+    background-image: url(./Images/bird.jpg);
+
+}
+.header img{
+    width: 200px;
+    height: 300px;
+    margin-left: 850px;
+    
+}
+.header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: -200px;
+    color:firebrick;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.header h2{
+    margin-left: 350px;
+    color: firebrick;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{ 
+    margin-left: 100px;
+    color: gold;
+
+}
+main h1{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.contact:hover{
+    color: blue;
+}
+.contact{
+    font-family: cursive;
+    font-size: 10px;
+}
+.bPhotos img{
+   
+    height:200px;
+    width: 200px;
+}
+.bPhotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
